@@ -1,12 +1,11 @@
 package src.com.teachmeskills.lesson16.task1.client;
 
-import src.com.teachmeskills.lesson16.task1.constant.PassportID;
 import src.com.teachmeskills.lesson16.task1.fabric.Fabrica;
 import src.com.teachmeskills.lesson16.task1.orders.Orders;
 
-import java.util.HashMap;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
+
 
 public class Client {
     private String name;
@@ -58,7 +57,8 @@ public class Client {
         return "Client{" +
                 "name='" + name + '\'' +
                 ", age='" + age + '\'' +
-                ", registrationDate='" + registrationDate + '\'' +
+                ", registrationDate='" + registrationDate + "\n" +
+                "clientOrder= " + clientOrder + '\'' +
                 '}';
     }
 }
