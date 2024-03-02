@@ -1,11 +1,13 @@
 package src.com.teachmeskills.lesson16.task1.client;
 
-import src.com.teachmeskills.lesson16.task1.fabric.Fabrica;
 import src.com.teachmeskills.lesson16.task1.orders.Orders;
 
-import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * The Client class contains the fields name, registrationDate, age and a list of orders clientOrder
+ * to describe the client. Get, set methods and constructor have been created. Reassigned toString() method
+ */
 
 public class Client {
     private String name;

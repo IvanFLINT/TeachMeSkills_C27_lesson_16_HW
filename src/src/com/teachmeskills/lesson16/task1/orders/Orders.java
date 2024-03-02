@@ -1,8 +1,9 @@
 package src.com.teachmeskills.lesson16.task1.orders;
 
-import java.util.ArrayList;
-import java.util.List;
-
+/**
+ * In the Orders class, the fields name, price and description are created.
+ * Their get and set methods. Constructor. And the toString() method is reassigned.
+ */
 public class Orders {
     private String name;
     private double price;
