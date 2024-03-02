@@ -4,7 +4,7 @@ import src.com.teachmeskills.lesson16.task1.fabrik.Fabrik;
 import src.com.teachmeskills.lesson16.task1.service.Service;
 
 /**
- * The Runner class calls methods to display information to the console
+ * The Runner class calls methods to display information to the console.
  */
 public class Runner {
     public static void main(String[] args) {
