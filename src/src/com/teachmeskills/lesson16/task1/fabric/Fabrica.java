@@ -20,20 +20,22 @@ public class Fabrica {
         list.add(or3);
         return list;
     } public static List<Orders> secondInputOrders() {
-        Orders or1 = new Orders("Aple", "Antonovka", 10.45);
-        Orders or2 = new Orders("Orange", "Hamlin", 10.45);
-        Orders or3 = new Orders("Merry", "Adelina", 10.45);
+        Orders or1 = new Orders("Boards", "Pine", 120.01);
+        Orders or2 = new Orders("Glue", "PVA", 50.45);
+        Orders or3 = new Orders("Nails", "100 х 50", 25.36);
+        Orders or4 = new Orders("Hammer", "Carpentry", 34.9);
         List<Orders> list = new ArrayList<>();
         list.add(or1);
         list.add(or2);
         list.add(or3);
+        list.add(or4);
         return list;
     } public static List<Orders> thirdInputOrders() {
-        Orders or1 = new Orders("Aple", "Antonovka", 10.45);
-        Orders or2 = new Orders("Orange", "Hamlin", 10.45);
-        Orders or3 = new Orders("Merry", "Adelina", 10.45);
-        Orders or4 = new Orders("Merry", "Adelina", 10.45);
-        Orders or5 = new Orders("Merry", "Adelina", 10.45);
+        Orders or1 = new Orders("CP", "Atlon", 456.45);
+        Orders or2 = new Orders("VGA", "RTX 3080", 1700.34);
+        Orders or3 = new Orders("SSD", "Kingston", 150.78);
+        Orders or4 = new Orders("DDR", "Hunix", 200.23);
+        Orders or5 = new Orders("HDD", "WD", 90.1);
         List<Orders> list = new ArrayList<>();
         list.add(or1);
         list.add(or2);
