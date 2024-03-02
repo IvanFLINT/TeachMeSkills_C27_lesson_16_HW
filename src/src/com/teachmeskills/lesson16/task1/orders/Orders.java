@@ -31,10 +31,10 @@ public class Orders {
         this.description = description;
     }
 
-    public static List<Orders> output() {
+    public static List<Orders> inputOrders() {
         Orders or1 = new Orders("Aple", "Antonovka", 10.45);
-        Orders or2 = new Orders("Aple", "Antonovka", 10.45);
-        Orders or3 = new Orders("Aple", "Antonovka", 10.45);
+        Orders or2 = new Orders("Orange", "Hamlin", 10.45);
+        Orders or3 = new Orders("Merry", "Adelina", 10.45);
         List<Orders> list = new ArrayList<>();
         list.add(or1);
         list.add(or2);
